@@ -20,7 +20,7 @@ You can open a new R Markdown file by going to **File > New File > R Markdown...
 
 # Adding chunks
 
-To add a new code chunk, press *Cmd+Option+I* (*Ctrl+Alt+I* on Windows), or click the *Insert* button at the top of this document, then select *R*. R Markdown will add a new, empty chunk at your cursor's location.
+To add a new code chunk, press *Cmd+Option+I* (*Ctrl+Alt+I* on Windows or Linux), or click the *Insert* button at the top of this document, then select *R*. R Markdown will add a new, empty chunk at your cursor's location.
 
 Try making a code chunk below:
 
@@ -32,7 +32,7 @@ Good job! For today, you should place all of your R code inside of code chunks.
 # Sometimes you might want to run only some of the code 
 # in a code chunk. To do that, highlight the code to 
 # run and then press Cmd + Enter (Control + Enter on 
-# Windows). If you do not highlight any code, R will 
+# Windows or Linux). If you do not highlight any code, R will
 # run the line of code that your cursor is on.
 # Try it now. Run mean(1:5) but not the line below.
 mean(1:5)
@@ -71,7 +71,9 @@ When you click the `knit` button at the top of an R Markdown file (like this one
 2. Reruns all of your code chunks in a clean R session and appends the results to the finished report.
 3. Saves the finished report alongside your .Rmd file
 
-Click the *knit* button at the top of this document or press *Cmd+Shift+K* (*Ctrl+Shift+K* on Windows) to render the finished report. The RStudio IDE will open the report so you can see its contents. For now, our reports will be HTML files. Try clicking *Knit* now.
+Click the *knit* button at the top of this document or press *Cmd+Shift+K* (*Ctrl+Shift+K* on Windows or Linux) to render the finished report. The RStudio IDE will open the report so you can see its contents. For now, our reports will be HTML files. Try clicking *Knit* now.
+
+You may get an error about pop-ups being blocked. Your browser should have a warning somewhere to allow pop-ups from this website.
 
 Good job! You'll learn more about R Markdown throughout the day!
 
